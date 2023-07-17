@@ -38,11 +38,11 @@ audio::-webkit-media-controls-timeline {
 </head>
 <body>
   <audio id="my-audio" controls>
-    <source src="https://link.happybirthdaysong.co.in/birthdaysong.in/happy-birthday-to-you-traditional-song.mp3" type="audio/mpeg">
+    <source src="https://drive.google.com/u/7/uc?id=14WBqeE33N9JRriRuWUNP1W0svFNBGZeP&export=download" type="audio/mpeg">
     Your browser does not support the audio element.
   </audio>
 
-  <a id="audio-link" href="your-link-url">Click here to continue</a>
+  <a id="audio-link" href="https://drive.google.com/u/0/uc?id=18hHSTOGfEze23sCJHTdYrwk95MorY9sd&export=download">Click here to continue</a>
 </body>
 </html>
 
