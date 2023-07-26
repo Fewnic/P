@@ -1,13 +1,6 @@
 function insertHTML() {
   var htmlCode = `
- <div style="width: 100%;text-align: center;">
-<button style="position: relative;padding: 10px 20px;
-            background-color: #007BFF;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 4px;
-            margin-top: 10px;border: transparent;" id="showMoreBtn">Show More</button></div>
-<style>
+ <style>
        
         .post-container {
             border: 1px solid #ccc;
@@ -41,7 +34,18 @@ function insertHTML() {
             margin-top: 10px;
         }
     </style>
-<script>
+
+  `;
+
+  document.write(htmlCode);
+}
+
+insertHTML();
+
+
+
+
+
 // Function to display posts
 function displayPosts(startIndex, numPosts) {
   const postContainer = document.getElementById("postContainer");
@@ -80,10 +84,3 @@ document.getElementById("showMoreBtn").addEventListener("click", function () {
   const currentPostsCount = document.querySelectorAll("#postContainer > div").length;
   displayPosts(currentPostsCount, postsPerLoad);
 });
-</script>
-  `;
-
-  document.write(htmlCode);
-}
-
-insertHTML();
