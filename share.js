@@ -204,7 +204,7 @@ function shareOnTikTok() {
         position: fixed;
         Bottom: 10px;
         Right: 50%;
-        background-color: red;
+        background-color: green;
         color: white;
         padding: 5px;
         border-radius: 50%;
