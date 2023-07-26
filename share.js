@@ -9,7 +9,7 @@ function insertHTML() {
 <div class="share-option" onclick="shareOnTelegram()">Telegram</div>
     <div class="share-option" onclick="shareOnTwitter()">Twitter</div>
     <div class="share-option" onclick="shareOnLinkedIn()">LinkedIn</div>
-    
+     
     <div class="share-option" onclick="shareOnBlogger()">Blogger</div>
     <div class="share-option" onclick="shareOnGoogleSites()">Google Sites</div>
     
